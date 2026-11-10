@@ -52,12 +52,14 @@ header{
 main{
   display: grid;
   grid-template-columns: auto 90vw auto;
+  margin-top: 20px;
 }
 
 .ficha{
   background-color: var(--fundo-card);
   padding: 20px;
   border-radius: 5px;
+  grid-column: 2 / -2;
 }
 
 .ficha > img{
