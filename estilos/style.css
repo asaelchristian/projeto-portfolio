@@ -95,3 +95,30 @@ main{
   color: var(--destaque);
   transition-duration: 0.7s;
 }
+
+.detalhes{
+  grid-column: 2 / -2;
+}
+
+article{
+  background-color: aqua;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.pp{
+  position: relative;
+  background-color: red;
+  border: 5px solid green;
+  margin: 0px -20px 30px -20px;
+  padding-bottom: 59%;
+}
+
+.pp iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
