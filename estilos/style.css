@@ -155,4 +155,13 @@ h2{
   height: 100%;
   background-color: var(--destaque);
   border-radius: 4px;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .habilidade-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
